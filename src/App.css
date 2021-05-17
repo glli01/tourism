@@ -433,6 +433,13 @@ body {
   padding: 1rem;
   color: #7b7b7b;
 }
+
+/* Media queries */
+@media only screen and (min-width: 1200px) {
+  :root {
+    font-size: 13px;
+  }
+}
 /* FONTS */
 @font-face {
   font-family: "Open Sans";

@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
-
+// TODO: fix image scrolling by adding individually.
 function App() {
   return (
     <>
