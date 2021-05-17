@@ -249,7 +249,7 @@ body {
   top: 1.8rem;
   flex-direction: row;
   height: 90%;
-  width: calc(17.4rem * 8);
+  width: calc(18.4rem * 8);
 }
 
 .cali-card {
@@ -258,7 +258,6 @@ body {
   margin: 0 1em 0 0;
   background-color: grey;
   border-radius: 0.8em;
-  object-fit: cover;
   position: relative;
 }
 .cali-location {
@@ -280,9 +279,9 @@ body {
 }
 .cali-card > img {
   object-fit: cover;
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
+  width: 17.4rem;
+  height: 100%;
+  border-radius: 0.8rem;
 }
 .cali-text {
   position: absolute;

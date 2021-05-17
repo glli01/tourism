@@ -1,4 +1,12 @@
 import "./App.css";
+import card1 from "./assets/img/card-1.jpg";
+import card2 from "./assets/img/card-2.jpg";
+import card3 from "./assets/img/card-3.jpg";
+import card4 from "./assets/img/card-4.jpg";
+import card5 from "./assets/img/card-5.jpg";
+import card6 from "./assets/img/card-6.jpg";
+import card7 from "./assets/img/card-7.jpg";
+import card8 from "./assets/img/card-8.jpg";
 import React, { Component } from "react";
 // TODO: fix image scrolling by adding individually.
 function App() {
@@ -76,80 +84,49 @@ function App() {
               <div className="cali-location">
                 <div className="flex-even">Beverly Hills</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-1.jpg"}
-                alt=""
-              />
+              <img src={card1} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even"> Venice Beach</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-2.jpg"}
-                alt=""
-              />
+              <img src={card2} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even">Golden Gate</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-3.jpg"}
-                alt=""
-              />
+              <img src={card3} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even">Santa Monica</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-4.jpg"}
-                alt=""
-              />
+              <img src={card4} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even"> Davis</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-5.jpg"}
-                alt=""
-              />
+              <img src={card5} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even">Lombard St</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-6.jpg"}
-                alt=""
-              />
+              <img src={card6} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even">Yosemite</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-7.jpg"}
-                alt=""
-              />
+              <img src={card7} alt="" />
             </div>
             <div className="cali-card">
               <div className="cali-location">
-                {" "}
                 <div className="flex-even">San Francisco</div>
               </div>
-              <img
-                src={process.env.PUBLIC_URL + "assets/img/card-8.jpg"}
-                alt=""
-              />
+              <img src={card8} alt="" />
             </div>
           </div>
         </div>
@@ -196,19 +173,19 @@ function App() {
             <div className="school-name flex-even">UCB</div>
           </div>
           <div className="schools-card">
-            <img src="" alt="" />
+            <img src={process.env.PUBLIC_URL + "assets/img/UCB.jpg"} alt="" />
             <div className="school-name flex-even">UCSB</div>
           </div>
           <div className="schools-card">
-            <img src="" alt="" />
+            <img src={process.env.PUBLIC_URL + "assets/img/UCB.jpg"} alt="" />
             <div className="school-name flex-even">UCD</div>
           </div>
           <div className="schools-card">
-            <img src="" alt="" />
+            <img src={process.env.PUBLIC_URL + "assets/img/UCB.jpg"} alt="" />
             <div className="school-name flex-even">UCSC</div>
           </div>
           <div className="schools-card">
-            <img src="" alt="" />
+            <img src={process.env.PUBLIC_URL + "assets/img/UCB.jpg"} alt="" />
             <div className="school-name flex-even">UCM</div>
           </div>
         </div>
