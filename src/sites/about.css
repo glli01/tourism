@@ -1,11 +1,11 @@
-:root {
-  --au-margin: 7.15rem;
-  --au-section-height: 60vh;
-}
 .au-top{
   position: relative;
   width: fit-content;
   height: 100vh;
+}
+:root {
+  --au-margin: 7.15rem;
+  --au-section-height: 60vh;
 }
 .au-nav-item{
   padding: 1rem;
