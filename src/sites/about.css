@@ -7,6 +7,15 @@
   width: fit-content;
   height: 100vh;
 }
+.au-nav-item{
+  padding: 1rem;
+}
+.todo > img{
+  margin: auto;
+}
+.todo {
+  display: flex;
+}
 .au-nav {
   background: none;
   z-index: +50;
