@@ -1,4 +1,4 @@
-.au-top{
+.au-top {
   position: relative;
   width: fit-content;
   height: 100vh;
@@ -7,10 +7,10 @@
   --au-margin: 7.15rem;
   --au-section-height: 60vh;
 }
-.au-nav-item{
+.au-nav-item {
   padding: 1rem;
 }
-.todo > img{
+.todo > img {
   margin: auto;
 }
 .todo {
@@ -39,71 +39,71 @@
   width: 100vw;
   height: 100vh;
 }
-.about-us{
+.about-us {
   --about-us-margin: 4rem;
   position: absolute;
   bottom: var(--about-us-margin);
   left: var(--about-us-margin);
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   color: white;
   font-size: 5em;
 }
-header{
+header {
   position: relative;
 }
 .mission {
-  position:relative;
+  position: relative;
   height: var(--au-section-height);
   margin: 0 var(--au-margin);
 }
-.mission >  .text-wrapper > .section-title {
+.mission > .text-wrapper > .section-title {
   color: hsla(226, 22%, 40%, 1);
   font-size: 3rem;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
 }
-.mission >  .text-wrapper > .section-body {
+.mission > .text-wrapper > .section-body {
   font-size: 1rem;
   font-weight: 300;
   width: 45rem;
 }
-.au-section-image{
+.au-section-image {
   height: 80%;
 }
-.au-section-image > img{
+.au-section-image > img {
   border-radius: 2rem;
-  height: 100%; 
+  height: 100%;
 }
-.au-section-button > .button-pink{
+.au-section-button > .button-pink {
   border-radius: 0.5rem;
   margin: 2rem 0;
 }
 .safety {
-  position:relative;
+  position: relative;
   height: var(--au-section-height);
   margin: 3rem var(--au-margin);
 }
-.safety >  .text-wrapper > .section-title {
+.safety > .text-wrapper > .section-title {
   color: hsla(226, 22%, 40%, 1);
   font-size: 3rem;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
 }
-.safety >  .text-wrapper > .section-body {
+.safety > .text-wrapper > .section-body {
   font-size: 1rem;
   font-weight: 300;
   width: 45rem;
 }
-.button-underline{
-  font-family: 'Open Sans';
+.button-underline {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   line-height: 18px;
-  background :none;
+  background: none;
   /* identical to box height */
 
   display: flex;
@@ -111,49 +111,49 @@ header{
   text-align: center;
   text-decoration-line: underline;
   margin: 2rem 0;
-  color: #505A7C;
+  color: #505a7c;
 }
 .us {
   width: 100vw;
 }
-.us > .section-title{
+.us > .section-title {
   color: hsla(226, 22%, 40%, 1);
   font-size: 3rem;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   text-align: center;
   width: 100%;
 }
-.us > .us-cards{
-  width: 100vw - calc(2* var(--au-margin));
+.us > .us-cards {
+  width: 100vw - calc(2 * var(--au-margin));
   margin: 2rem var(--au-margin);
   margin-top: 3rem;
 }
-.us-card{
+.us-card {
   width: 15rem;
   height: 20rem;
   border-radius: 3rem;
   background-color: grey;
 }
-.us-footer{
+.us-footer {
   height: fit-content;
   display: block;
   width: 80vw;
   text-align: center;
   margin: auto;
 }
-.au-footer{
+.au-footer {
   position: relative;
   display: block;
   margin: 2rem 0;
   width: 100vw;
   text-align: center;
   text-decoration-line: underline;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   line-height: 18px;
-  color: #505A7C;
+  color: #505a7c;
 }
