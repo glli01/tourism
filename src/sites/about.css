@@ -72,10 +72,9 @@ header{
   margin: 2rem 0;
 }
 .safety {
-  margin-top: var(--au-margin);
   position:relative;
   height: var(--au-section-height);
-  margin: 0 var(--au-margin);
+  margin: 3rem var(--au-margin);
 }
 .safety >  .text-wrapper > .section-title {
   color: hsla(226, 22%, 40%, 1);
@@ -114,4 +113,38 @@ header{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
+  text-align: center;
+  width: 100%;
+}
+.us > .us-cards{
+  width: 100vw - calc(2* var(--au-margin));
+  margin: 2rem var(--au-margin);
+  margin-top: 3rem;
+}
+.us-card{
+  width: 15rem;
+  height: 20rem;
+  border-radius: 3rem;
+  background-color: grey;
+}
+.us-footer{
+  height: fit-content;
+  display: block;
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+}
+.au-footer{
+  position: relative;
+  display: block;
+  margin: 2rem 0;
+  width: 100vw;
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 18px;
+  color: #505A7C;
 }

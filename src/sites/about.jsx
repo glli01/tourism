@@ -74,7 +74,7 @@ export default function About(){
     </div>
     <div className="us">
       <div className="section-title">Who are We?</div>
-      <div className="us-cards">
+      <div className="us-cards flex-even">
         <div className="us-card">
           <div className="us-text"></div>
           <div className="us-image"><img src="" alt="" srcset="" /></div>
@@ -96,9 +96,9 @@ export default function About(){
           <div className="us-image"><img src="" alt="" srcset="" /></div>
         </div>
       </div>
-      <div className="us-footer"></div>
+      <div className="us-footer"> We are a company established to connect students around the world.... blah blah</div>
     </div>
-    <footer>Contact us</footer>
+    <footer className="au-footer">Contact us</footer>
   </>
   )
 };
