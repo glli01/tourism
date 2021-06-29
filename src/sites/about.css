@@ -126,7 +126,7 @@ header {
   width: 100%;
 }
 .us > .us-cards {
-  width: 100vw - calc(2 * var(--au-margin));
+  width: calc(100vw - (2*var(--au-margin)));
   margin: 2rem var(--au-margin);
   margin-top: 3rem;
 }
