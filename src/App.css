@@ -177,6 +177,7 @@ body {
 
 /* Banner, or section under nav */
 .banner {
+  position: relative;
   display: block;
   margin: var(--nav-height) auto auto auto;
   width: calc(100vw - 10rem * 2);

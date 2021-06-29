@@ -1,0 +1,117 @@
+:root{
+  --au-margin: 7.15rem;
+  --au-section-height: 60vh;
+}
+.au-top{
+  position: relative;
+  width: fit-content;
+  height: 100vh;
+}
+.au-nav {
+  background: none;
+  z-index: +50;
+  padding: 0rem 3.46rem;
+  width: calc(100vw - (3.46rem * 2));
+  height: var(--nav-height);
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+}
+.about-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.about-banner > img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.about-us{
+  --about-us-margin: 4rem;
+  position: absolute;
+  bottom: var(--about-us-margin);
+  left: var(--about-us-margin);
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: white;
+  font-size: 5em;
+}
+header{
+  position: relative;
+}
+.mission {
+  position:relative;
+  height: var(--au-section-height);
+  margin: 0 var(--au-margin);
+}
+.mission >  .text-wrapper > .section-title {
+  color: hsla(226, 22%, 40%, 1);
+  font-size: 3rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+}
+.mission >  .text-wrapper > .section-body {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 45rem;
+}
+.au-section-image{
+  height: 80%;
+}
+.au-section-image > img{
+  border-radius: 2rem;
+  height: 100%; 
+}
+.au-section-button > .button-pink{
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+.safety {
+  margin-top: var(--au-margin);
+  position:relative;
+  height: var(--au-section-height);
+  margin: 0 var(--au-margin);
+}
+.safety >  .text-wrapper > .section-title {
+  color: hsla(226, 22%, 40%, 1);
+  font-size: 3rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+}
+.safety >  .text-wrapper > .section-body {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 45rem;
+}
+.button-underline{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 18px;
+  background :none;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 2rem 0;
+  color: #505A7C;
+}
+.us {
+  width: 100vw;
+}
+.us > .section-title{
+  color: hsla(226, 22%, 40%, 1);
+  font-size: 3rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+}

@@ -6,6 +6,7 @@ import card5 from "../assets/img/card-5.jpg";
 import card6 from "../assets/img/card-6.jpg";
 import card7 from "../assets/img/card-7.jpg";
 import card8 from "../assets/img/card-8.jpg";
+import "./about.css";
 import "../App.css";
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 export default function Home(){

@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./sites/Home";
 import School from "./sites/school";
 import Visitors from "./sites/visitors";
@@ -6,6 +5,7 @@ import Hosts from "./sites/hosts";
 import Services from "./sites/services";
 import About from "./sites/about";
 import React, { Component } from "react";
+import "./App.css"
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 // TODO: fix image scrolling by adding individually.
 function App() {
