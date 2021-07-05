@@ -1,4 +1,4 @@
 # A tourism website meant to connect students between japan and the US
-Accessable at sniip.gq or sniip.herokuapp.com
+Accessable at http://sniip.gq or http://sniip.herokuapp.com
 
 ## WIP
